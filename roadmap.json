@@ -1,0 +1,72 @@
+{
+  "updated": "July 16, 2026",
+  "completeCards": 9,
+  "totalCards": 42,
+  "currentFocus": "M0 · Runtime",
+  "milestones": [
+    {
+      "id": "foundation",
+      "label": "Foundation",
+      "status": "Complete",
+      "complete": 9,
+      "total": 9,
+      "focus": "Verified private platform, application, purchasing, Android, cookbook, backup, and repository baseline."
+    },
+    {
+      "id": "m0",
+      "label": "M0 · Runtime",
+      "status": "Next",
+      "complete": 0,
+      "total": 7,
+      "focus": "Protect live state, separate it from deployment code, reconcile the Ubuntu runtime, and prove recovery."
+    },
+    {
+      "id": "m1",
+      "label": "M1 · Acceptance",
+      "status": "Planned",
+      "complete": 0,
+      "total": 6,
+      "focus": "Complete real production, receiving, offline-count, device, and interface-retirement acceptance gates."
+    },
+    {
+      "id": "m2",
+      "label": "M2 · Releases",
+      "status": "Planned",
+      "complete": 0,
+      "total": 4,
+      "focus": "Isolate tests, add private CI, formalize signed releases, and improve owner-facing observability."
+    },
+    {
+      "id": "m3",
+      "label": "M3 · Operations",
+      "status": "Planned",
+      "complete": 0,
+      "total": 5,
+      "focus": "Harden production, point of sale, inventory, purchasing, and reconciliation from pilot evidence."
+    },
+    {
+      "id": "m4",
+      "label": "M4 · Cookbook",
+      "status": "Planned",
+      "complete": 0,
+      "total": 6,
+      "focus": "Govern editorial data, review all 115 entries, complete printer preflight, and approve a physical proof."
+    },
+    {
+      "id": "m5",
+      "label": "M5 · Offline",
+      "status": "Later",
+      "complete": 0,
+      "total": 3,
+      "focus": "Add sync diagnostics, prove populated cache upgrades, and choose further offline work from evidence."
+    },
+    {
+      "id": "m6",
+      "label": "M6 · Lifecycle",
+      "status": "Later",
+      "complete": 0,
+      "total": 2,
+      "focus": "Decide desktop packaging support and formalize the platform and storage lifecycle."
+    }
+  ]
+}
