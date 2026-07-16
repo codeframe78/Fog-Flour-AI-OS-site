@@ -1,6 +1,6 @@
 {
   "updated": "July 16, 2026",
-  "completeCards": 9,
+  "completeCards": 10,
   "totalCards": 42,
   "currentFocus": "M0 · Runtime",
   "milestones": [
@@ -15,8 +15,8 @@
     {
       "id": "m0",
       "label": "M0 · Runtime",
-      "status": "Next",
-      "complete": 0,
+      "status": "In progress",
+      "complete": 1,
       "total": 7,
       "focus": "Protect live state, separate it from deployment code, reconcile the Ubuntu runtime, and prove recovery."
     },
