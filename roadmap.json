@@ -1,6 +1,6 @@
 {
-  "updated": "July 16, 2026",
-  "completeCards": 10,
+  "updated": "July 17, 2026",
+  "completeCards": 14,
   "totalCards": 42,
   "currentFocus": "M0 · Runtime",
   "milestones": [
@@ -16,9 +16,9 @@
       "id": "m0",
       "label": "M0 · Runtime",
       "status": "In progress",
-      "complete": 1,
+      "complete": 5,
       "total": 7,
-      "focus": "Protect live state, separate it from deployment code, reconcile the Ubuntu runtime, and prove recovery."
+      "focus": "Complete authenticated device checks and the observation window after the protected runtime cutover."
     },
     {
       "id": "m1",
