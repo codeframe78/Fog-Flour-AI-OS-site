@@ -79,7 +79,7 @@ function showRoadmapFallback() {
   if (!grid) return;
   const note = document.createElement("p");
   note.className = "load-note";
-  note.textContent = "Roadmap details are temporarily unavailable. The verified baseline is 9 of 42 cards complete.";
+  note.textContent = "Roadmap details are temporarily unavailable. The verified baseline is 14 of 42 cards complete.";
   grid.replaceChildren(note);
 }
 
