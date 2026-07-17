@@ -18,7 +18,7 @@
       "status": "In progress",
       "complete": 5,
       "total": 7,
-      "focus": "Complete authenticated device checks and the observation window after the protected runtime cutover."
+      "focus": "Complete the observation window and remaining recovery approvals after authenticated device checks passed."
     },
     {
       "id": "m1",
