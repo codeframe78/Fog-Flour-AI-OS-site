@@ -1,8 +1,11 @@
 {
-  "updated": "July 17, 2026",
+  "updated": "July 19, 2026",
   "completeCards": 14,
   "totalCards": 42,
   "currentFocus": "M0 · Runtime",
+  "forecastAsOf": "July 19, 2026",
+  "operationalTarget": "December 11, 2026",
+  "fullRoadmapTarget": "February 12, 2027",
   "milestones": [
     {
       "id": "foundation",
@@ -10,7 +13,12 @@
       "status": "Complete",
       "complete": 9,
       "total": 9,
-      "focus": "Verified private platform, application, purchasing, Android, cookbook, backup, and repository baseline."
+      "focus": "Verified private platform, application, purchasing, Android, cookbook, backup, and repository baseline.",
+      "forecast": {
+        "target": "Completed July 16, 2026",
+        "window": "Actual",
+        "confidence": "High"
+      }
     },
     {
       "id": "m0",
@@ -18,7 +26,12 @@
       "status": "In progress",
       "complete": 5,
       "total": 7,
-      "focus": "Complete the observation window and remaining recovery approvals after authenticated device checks passed."
+      "focus": "Complete the observation window and remaining recovery approvals after authenticated device checks passed.",
+      "forecast": {
+        "target": "July 31, 2026",
+        "window": "July 24–August 7",
+        "confidence": "Medium"
+      }
     },
     {
       "id": "m1",
@@ -26,7 +39,12 @@
       "status": "Planned",
       "complete": 0,
       "total": 6,
-      "focus": "Complete real production, receiving, offline-count, device, and interface-retirement acceptance gates."
+      "focus": "Complete real production, receiving, offline-count, device, and interface-retirement acceptance gates.",
+      "forecast": {
+        "target": "August 14, 2026",
+        "window": "August 7–28",
+        "confidence": "Medium-low"
+      }
     },
     {
       "id": "m2",
@@ -34,7 +52,12 @@
       "status": "Planned",
       "complete": 0,
       "total": 4,
-      "focus": "Isolate tests, add private CI, formalize signed releases, and improve owner-facing observability."
+      "focus": "Isolate tests, add private CI, formalize signed releases, and improve owner-facing observability.",
+      "forecast": {
+        "target": "September 4, 2026",
+        "window": "August 21–September 18",
+        "confidence": "Medium"
+      }
     },
     {
       "id": "m3",
@@ -42,7 +65,12 @@
       "status": "Planned",
       "complete": 0,
       "total": 5,
-      "focus": "Harden production, point of sale, inventory, purchasing, and reconciliation from pilot evidence."
+      "focus": "Harden production, point of sale, inventory, purchasing, and reconciliation from pilot evidence.",
+      "forecast": {
+        "target": "October 16, 2026",
+        "window": "September 25–November 13",
+        "confidence": "Low"
+      }
     },
     {
       "id": "m4",
@@ -50,7 +78,12 @@
       "status": "Planned",
       "complete": 0,
       "total": 6,
-      "focus": "Govern editorial data, review all 115 entries, complete printer preflight, and approve a physical proof."
+      "focus": "Govern editorial data, review all 115 entries, complete printer preflight, and approve a physical proof.",
+      "forecast": {
+        "target": "February 12, 2027",
+        "window": "December 18, 2026–March 26, 2027",
+        "confidence": "Low"
+      }
     },
     {
       "id": "m5",
@@ -58,7 +91,12 @@
       "status": "Later",
       "complete": 0,
       "total": 3,
-      "focus": "Add sync diagnostics, prove populated cache upgrades, and choose further offline work from evidence."
+      "focus": "Add sync diagnostics, prove populated cache upgrades, and choose further offline work from evidence.",
+      "forecast": {
+        "target": "November 20, 2026",
+        "window": "November 6–December 18",
+        "confidence": "Medium-low"
+      }
     },
     {
       "id": "m6",
@@ -66,7 +104,12 @@
       "status": "Later",
       "complete": 0,
       "total": 2,
-      "focus": "Decide desktop packaging support and formalize the platform and storage lifecycle."
+      "focus": "Decide desktop packaging support and formalize the platform and storage lifecycle.",
+      "forecast": {
+        "target": "December 11, 2026",
+        "window": "November 27, 2026–January 15, 2027",
+        "confidence": "Medium"
+      }
     }
   ]
 }

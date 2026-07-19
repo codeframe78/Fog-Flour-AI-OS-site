@@ -38,6 +38,32 @@ function createMilestoneCard(milestone, index) {
   focus.className = "milestone-focus";
   focus.textContent = milestone.focus;
 
+  const forecast = document.createElement("dl");
+  forecast.className = "milestone-forecast";
+
+  const forecastTarget = document.createElement("div");
+  const targetLabel = document.createElement("dt");
+  targetLabel.textContent = "Planning target";
+  const targetValue = document.createElement("dd");
+  targetValue.textContent = milestone.forecast?.target || "Not forecast";
+  forecastTarget.append(targetLabel, targetValue);
+
+  const forecastWindow = document.createElement("div");
+  const windowLabel = document.createElement("dt");
+  windowLabel.textContent = "Forecast window";
+  const windowValue = document.createElement("dd");
+  windowValue.textContent = milestone.forecast?.window || "Not forecast";
+  forecastWindow.append(windowLabel, windowValue);
+
+  const forecastConfidence = document.createElement("div");
+  const confidenceLabel = document.createElement("dt");
+  confidenceLabel.textContent = "Confidence";
+  const confidenceValue = document.createElement("dd");
+  confidenceValue.textContent = milestone.forecast?.confidence || "Not rated";
+  forecastConfidence.append(confidenceLabel, confidenceValue);
+
+  forecast.append(forecastTarget, forecastWindow, forecastConfidence);
+
   const progressWrap = document.createElement("div");
   progressWrap.className = "milestone-progress";
 
@@ -53,7 +79,7 @@ function createMilestoneCard(milestone, index) {
   progress.setAttribute("aria-label", `${milestone.label}: ${milestone.complete} of ${milestone.total} cards complete`);
 
   progressWrap.append(progressLabel, count, progress);
-  article.append(header, title, focus, progressWrap);
+  article.append(header, title, focus, forecast, progressWrap);
   return article;
 }
 

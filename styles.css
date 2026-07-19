@@ -680,6 +680,35 @@ a {
   color: rgba(251, 247, 239, 0.58);
 }
 
+.milestone-forecast {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 28px 0 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--line-light);
+  border-bottom: 1px solid var(--line-light);
+}
+
+.milestone-forecast div {
+  min-width: 0;
+}
+
+.milestone-forecast dt {
+  color: rgba(251, 247, 239, 0.42);
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.milestone-forecast dd {
+  margin: 7px 0 0;
+  color: rgba(251, 247, 239, 0.82);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
 .milestone-progress {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -1161,6 +1190,10 @@ a {
   .milestone-card {
     min-height: 270px;
     padding: 28px;
+  }
+
+  .milestone-forecast {
+    grid-template-columns: 1fr;
   }
 
   .roadmap-footer {
