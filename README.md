@@ -12,7 +12,7 @@ The Pages workflow stages an explicit file allowlist. It must never be changed t
 
 ## Roadmap updates
 
-`roadmap.json` is updated only from verified milestone counts. A feature merge does not complete a milestone by itself; its delivery cards, exit criteria, operational evidence, and any required owner approval must all be complete.
+`roadmap.json` is updated only from verified milestone counts and the private board's current evidence-based forecast. A feature merge does not complete a milestone by itself; its delivery cards, exit criteria, operational evidence, and any required owner approval must all be complete. Forecast dates are planning ranges rather than promises and are revised when a gate, owner dependency, or external lead time changes.
 
 ## Local preview
 
