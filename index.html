@@ -1,235 +1,448 @@
 <!doctype html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fog & Flour is a local-first bakery operating system, Android companion, and narrative cookbook platform.">
-  <meta name="theme-color" content="#17130f">
-  <meta property="og:title" content="Fog & Flour — Bakery operations, thoughtfully made">
-  <meta property="og:description" content="A public roadmap for the private, local-first operating system behind Fog & Flour.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://codeframe78.github.io/Fog-Flour-AI-OS-site/">
-  <title>Fog & Flour — Project Roadmap</title>
-  <link rel="canonical" href="https://codeframe78.github.io/Fog-Flour-AI-OS-site/">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script>document.documentElement.classList.replace('no-js', 'js');</script>
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Fog &amp; Flour is a local-first bakery operating system, Android companion, and narrative cookbook platform."
+    />
+    <meta name="theme-color" content="#17130f" />
+    <meta name="color-scheme" content="dark light" />
+    <meta
+      property="og:title"
+      content="Fog &amp; Flour — Bakery operations, thoughtfully made"
+    />
+    <meta
+      property="og:description"
+      content="A public roadmap for the private, local-first operating system behind Fog &amp; Flour."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Fog &amp; Flour AI OS" />
+    <meta property="og:url" content="https://fog-flour.jamesjennison.net/" />
+    <meta
+      property="og:image"
+      content="https://fog-flour.jamesjennison.net/assets/fog-flour-social-card.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Fog &amp; Flour — A calmer way to run the whole bakery."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Fog &amp; Flour — Bakery operations, thoughtfully made"
+    />
+    <meta
+      name="twitter:description"
+      content="A public roadmap for the private, local-first operating system behind Fog &amp; Flour."
+    />
+    <meta
+      name="twitter:image"
+      content="https://fog-flour.jamesjennison.net/assets/fog-flour-social-card.png"
+    />
+    <title>Fog &amp; Flour — Project Roadmap</title>
+    <link rel="canonical" href="https://fog-flour.jamesjennison.net/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="sitemap" href="sitemap.xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header" data-site-header>
-    <nav class="nav shell" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Fog & Flour home">
-        <img src="assets/fog_flour_logo.png" width="72" height="72" alt="">
-        <span class="brand-copy">
-          <strong>Fog &amp; Flour</strong>
-          <small>AI OS</small>
-        </span>
-      </a>
-      <div class="nav-links">
-        <a href="#system">The system</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#cookbook">Cookbook</a>
-      </div>
-      <a class="nav-cta" href="https://github.com/users/codeframe78/projects/2">Private board <span aria-hidden="true">↗</span></a>
-    </nav>
-  </header>
+    <header class="site-header" data-site-header>
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="#top">
+          <img
+            src="assets/fog-flour-logo-104.webp"
+            width="52"
+            height="52"
+            alt=""
+          />
+          <span class="brand-copy">
+            <strong>Fog &amp; Flour</strong>
+            <small>AI OS</small>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a href="#system">The system</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#cookbook">Cookbook</a>
+        </div>
+        <a class="nav-cta" href="https://jamesjennison.net"
+          >Project hub <span aria-hidden="true">↗</span></a
+        >
+        <details class="mobile-nav">
+          <summary>Menu</summary>
+          <div>
+            <a href="#system">The system</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#cookbook">Cookbook</a>
+            <a href="https://jamesjennison.net"
+              >Project hub <span aria-hidden="true">↗</span></a
+            >
+            <a href="https://status.jamesjennison.net"
+              >Status <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </details>
+      </nav>
+    </header>
 
-  <main id="main-content">
-    <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-atmosphere" aria-hidden="true"></div>
-      <div class="shell hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Local-first bakery operations</p>
-          <h1 id="hero-title">A calmer way to run the whole bakery.</h1>
-          <p class="hero-lede">Fog &amp; Flour brings formulas, inventory, purchasing, production, checkout, fulfillment, and a neighborhood-inspired cookbook into one carefully governed system.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#roadmap">See the roadmap</a>
-            <a class="button button-quiet" href="#system">Explore the platform <span aria-hidden="true">↓</span></a>
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-atmosphere" aria-hidden="true"></div>
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> Local-first bakery operations</p>
+            <h1 id="hero-title">A calmer way to run the whole bakery.</h1>
+            <p class="hero-lede">
+              Fog &amp; Flour brings formulas, inventory, purchasing,
+              production, checkout, fulfillment, and a neighborhood-inspired
+              cookbook into one carefully governed system.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#roadmap"
+                >See the roadmap</a
+              >
+              <a class="button button-quiet" href="#system"
+                >Explore the platform <span aria-hidden="true">↓</span></a
+              >
+            </div>
+          </div>
+
+          <aside class="status-card reveal" aria-labelledby="status-title">
+            <div class="status-topline">
+              <div>
+                <p class="kicker">Delivery status</p>
+                <h2 id="status-title">Foundation complete</h2>
+              </div>
+              <div
+                class="progress-ring"
+                role="img"
+                aria-label="{{PROGRESS_PERCENT}} percent of roadmap cards verified"
+              >
+                <svg viewBox="0 0 36 36" aria-hidden="true">
+                  <circle
+                    class="progress-ring-track"
+                    cx="18"
+                    cy="18"
+                    r="15.5"
+                  ></circle>
+                  <circle
+                    class="progress-ring-value"
+                    cx="18"
+                    cy="18"
+                    r="15.5"
+                    pathLength="100"
+                    stroke-dasharray="{{PROGRESS_PERCENT}} 100"
+                  ></circle>
+                </svg>
+                <span>{{PROGRESS_PERCENT}}%</span>
+              </div>
+            </div>
+            <div class="status-rule"></div>
+            <dl class="status-stats">
+              <div>
+                <dt>Verified</dt>
+                <dd>{{COMPLETE_CARDS}}/{{TOTAL_CARDS}} cards</dd>
+              </div>
+              <div>
+                <dt>Current focus</dt>
+                <dd>{{CURRENT_FOCUS}}</dd>
+              </div>
+              <div>
+                <dt>Updated</dt>
+                <dd>{{UPDATED}}</dd>
+              </div>
+            </dl>
+            <p class="status-note">
+              <span aria-hidden="true">●</span> Progress means verified
+              evidence—not merely merged code.
+            </p>
+          </aside>
+        </div>
+
+        <div
+          class="shell proof-strip reveal"
+          role="group"
+          aria-label="Current project facts"
+        >
+          <div><strong>115</strong><span>protected formulas</span></div>
+          <div><strong>380</strong><span>passing tests</span></div>
+          <div><strong>204</strong><span>ingredient mappings</span></div>
+          <div><strong>240</strong><span>cookbook pages</span></div>
+        </div>
+      </section>
+
+      <section
+        class="section system-section"
+        id="system"
+        aria-labelledby="system-title"
+      >
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> One operating record</p>
+            <h2 id="system-title">
+              Built for the counter, the kitchen, and everything between.
+            </h2>
+            <p>
+              The system keeps technical formulas precise while giving daily
+              bakery work a simple, touch-friendly surface.
+            </p>
+          </div>
+
+          <div class="system-grid">
+            <article class="system-card system-card-dark reveal">
+              <p class="card-number">01</p>
+              <div class="system-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" role="img">
+                  <path
+                    d="M10 35V15l14-7 14 7v20M16 35V19h16v16M7 39h34M20 25h8M20 30h8"
+                  />
+                </svg>
+              </div>
+              <h3>Private operating core</h3>
+              <p>
+                One durable record for recipes, inventory, employees, orders,
+                payments, production, purchasing, and audit history.
+              </p>
+              <ul>
+                <li>Private network access</li>
+                <li>Validated daily backups</li>
+                <li>Forward-only data history</li>
+              </ul>
+            </article>
+
+            <article class="system-card reveal">
+              <p class="card-number">02</p>
+              <div class="system-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" role="img">
+                  <rect x="13" y="5" width="22" height="38" rx="4" />
+                  <path d="M20 10h8M21 37h6M18 17h12v14H18z" />
+                </svg>
+              </div>
+              <h3>Daily bakery clients</h3>
+              <p>
+                Touch and Android interfaces keep the floor moving, with guarded
+                offline support where connectivity actually matters.
+              </p>
+              <ul>
+                <li>Point of sale and fulfillment</li>
+                <li>Pantry and physical counts</li>
+                <li>Formula access on the move</li>
+              </ul>
+            </article>
+
+            <article class="system-card reveal">
+              <p class="card-number">03</p>
+              <div class="system-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" role="img">
+                  <path d="M9 9h24a6 6 0 0 1 6 6v24H15a6 6 0 0 1-6-6z" />
+                  <path d="M15 9v24a6 6 0 0 0 6 6M21 17h11M21 23h11M21 29h7" />
+                </svg>
+              </div>
+              <h3>Editorial cookbook studio</h3>
+              <p>
+                The same exact formulas support a boutique narrative cookbook
+                without letting stories or design alter the baking chemistry.
+              </p>
+              <ul>
+                <li>Exact titles and formula identity</li>
+                <li>Stable narrative and photo slots</li>
+                <li>Print-review generation</li>
+              </ul>
+            </article>
           </div>
         </div>
+      </section>
 
-        <aside class="status-card reveal" aria-labelledby="status-title">
-          <div class="status-topline">
-            <div>
-              <p class="kicker">Delivery status</p>
-              <h2 id="status-title">Foundation complete</h2>
+      <section
+        class="section roadmap-section"
+        id="roadmap"
+        aria-labelledby="roadmap-title"
+      >
+        <div class="shell">
+          <div class="roadmap-header reveal">
+            <div class="section-heading section-heading-light">
+              <p class="eyebrow"><span></span> Delivery roadmap</p>
+              <h2 id="roadmap-title">
+                Evidence first. Milestone by milestone.
+              </h2>
             </div>
-            <div class="progress-ring" data-progress-ring style="--progress: 33">
-              <span data-progress-percent>33%</span>
-            </div>
+            <p>
+              Each milestone closes only after its cards, acceptance criteria,
+              and required operational evidence are complete. Targets are
+              planning ranges and are revised as real bakery, owner-review, and
+              printer evidence arrives.
+            </p>
           </div>
-          <div class="status-rule"></div>
-          <dl class="status-stats">
-            <div>
-              <dt>Verified</dt>
-              <dd><span data-complete-cards>14</span>/<span data-total-cards>42</span> cards</dd>
-            </div>
-            <div>
-              <dt>Current focus</dt>
-              <dd data-current-focus>M0 · Runtime</dd>
-            </div>
-            <div>
-              <dt>Updated</dt>
-              <dd data-updated>July 19, 2026</dd>
-            </div>
-          </dl>
-          <p class="status-note"><span aria-hidden="true">●</span> Progress means verified evidence—not merely merged code.</p>
-        </aside>
-      </div>
 
-      <div class="shell proof-strip reveal" aria-label="Current project facts">
-        <div><strong>115</strong><span>protected formulas</span></div>
-        <div><strong>380</strong><span>passing tests</span></div>
-        <div><strong>204</strong><span>ingredient mappings</span></div>
-        <div><strong>240</strong><span>cookbook pages</span></div>
-      </div>
-    </section>
+          <ul class="milestone-grid">
+            <!-- BUILD:ROADMAP_CARDS -->
+          </ul>
 
-    <section class="section system-section" id="system" aria-labelledby="system-title">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span> One operating record</p>
-          <h2 id="system-title">Built for the counter, the kitchen, and everything between.</h2>
-          <p>The system keeps technical formulas precise while giving daily bakery work a simple, touch-friendly surface.</p>
-        </div>
-
-        <div class="system-grid">
-          <article class="system-card system-card-dark reveal">
-            <p class="card-number">01</p>
-            <div class="system-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" role="img"><path d="M10 35V15l14-7 14 7v20M16 35V19h16v16M7 39h34M20 25h8M20 30h8"/></svg>
-            </div>
-            <h3>Private operating core</h3>
-            <p>One durable record for recipes, inventory, employees, orders, payments, production, purchasing, and audit history.</p>
-            <ul>
-              <li>Private network access</li>
-              <li>Validated daily backups</li>
-              <li>Forward-only data history</li>
-            </ul>
-          </article>
-
-          <article class="system-card reveal">
-            <p class="card-number">02</p>
-            <div class="system-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" role="img"><rect x="13" y="5" width="22" height="38" rx="4"/><path d="M20 10h8M21 37h6M18 17h12v14H18z"/></svg>
-            </div>
-            <h3>Daily bakery clients</h3>
-            <p>Touch and Android interfaces keep the floor moving, with guarded offline support where connectivity actually matters.</p>
-            <ul>
-              <li>Point of sale and fulfillment</li>
-              <li>Pantry and physical counts</li>
-              <li>Formula access on the move</li>
-            </ul>
-          </article>
-
-          <article class="system-card reveal">
-            <p class="card-number">03</p>
-            <div class="system-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" role="img"><path d="M9 9h24a6 6 0 0 1 6 6v24H15a6 6 0 0 1-6-6z"/><path d="M15 9v24a6 6 0 0 0 6 6M21 17h11M21 23h11M21 29h7"/></svg>
-            </div>
-            <h3>Editorial cookbook studio</h3>
-            <p>The same exact formulas support a boutique narrative cookbook without letting stories or design alter the baking chemistry.</p>
-            <ul>
-              <li>Exact titles and formula identity</li>
-              <li>Stable narrative and photo slots</li>
-              <li>Print-review generation</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section roadmap-section" id="roadmap" aria-labelledby="roadmap-title">
-      <div class="shell">
-        <div class="roadmap-header reveal">
-          <div class="section-heading section-heading-light">
-            <p class="eyebrow"><span></span> Delivery roadmap</p>
-            <h2 id="roadmap-title">Evidence first. Milestone by milestone.</h2>
-          </div>
-          <p>Each milestone closes only after its cards, acceptance criteria, and required operational evidence are complete. Targets are planning ranges and are revised as real bakery, owner-review, and printer evidence arrives.</p>
-        </div>
-
-        <div class="milestone-grid" data-milestone-grid aria-live="polite">
-          <noscript>
-            <p class="load-note">JavaScript is disabled. The current roadmap remains available on the private GitHub Project.</p>
-          </noscript>
-        </div>
-
-        <div class="roadmap-footer reveal">
-          <p><strong>Current move:</strong> complete the timed authenticated restore and capture the operational evidence needed for M0 and M1.</p>
-          <a class="text-link" href="https://github.com/users/codeframe78/projects/2">Open the private delivery board <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section principles-section" aria-labelledby="principles-title">
-      <div class="shell principles-grid">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span> Project principles</p>
-          <h2 id="principles-title">Careful by design.</h2>
-          <p>A bakery system should be dependable enough to disappear into the work.</p>
-        </div>
-        <ol class="principles-list">
-          <li class="reveal"><span>01</span><div><h3>Exact formulas</h3><p>Source weights, yields, timing, temperatures, and chemistry remain protected.</p></div></li>
-          <li class="reveal"><span>02</span><div><h3>Private by default</h3><p>Operational systems and business records stay off the public internet.</p></div></li>
-          <li class="reveal"><span>03</span><div><h3>Confirm consequential writes</h3><p>Purchasing, stock, payment, and data changes are previewed before they happen.</p></div></li>
-          <li class="reveal"><span>04</span><div><h3>Evidence over optimism</h3><p>Work is complete when it survives verification and real operations—not when a feature merely exists.</p></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section cookbook-section" id="cookbook" aria-labelledby="cookbook-title">
-      <div class="cookbook-atmosphere" aria-hidden="true"></div>
-      <div class="shell cookbook-grid">
-        <div class="cookbook-copy reveal">
-          <p class="eyebrow"><span></span> The physical book</p>
-          <h2 id="cookbook-title">San Francisco stories. Professional formulas.</h2>
-          <p>A 240-page review edition pairs 115 protected recipes and components with clean food photography, neighborhood character, and an asymmetric layout built to remain genuinely cookable.</p>
-          <div class="cookbook-facts">
-            <div><span>Trim</span><strong>7.5 × 9.25 in</strong></div>
-            <div><span>Review status</span><strong>Mechanical QA passed</strong></div>
-            <div><span>Next gate</span><strong>Human + printer review</strong></div>
+          <div class="roadmap-footer reveal">
+            <p>
+              <strong>Current move:</strong> complete the timed authenticated
+              restore and capture the operational evidence needed for M0 and M1.
+            </p>
+            <a class="text-link" href="https://jamesjennison.net/projects/"
+              >Explore the project ecosystem
+              <span aria-hidden="true">↗</span></a
+            >
           </div>
         </div>
-        <div class="book-object reveal" aria-label="Abstract representation of the Fog & Flour cookbook">
-          <div class="book-shadow"></div>
-          <div class="book-cover">
-            <div class="book-cover-mark">F<span>&amp;</span>F</div>
-            <p>Fog &amp; Flour</p>
-            <small>A San Francisco<br>neighborhood cookbook</small>
-            <div class="book-rule"></div>
-            <span class="book-edition">Review edition</span>
+      </section>
+
+      <section
+        class="section principles-section"
+        aria-labelledby="principles-title"
+      >
+        <div class="shell principles-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> Project principles</p>
+            <h2 id="principles-title">Careful by design.</h2>
+            <p>
+              A bakery system should be dependable enough to disappear into the
+              work.
+            </p>
+          </div>
+          <ol class="principles-list">
+            <li class="reveal">
+              <span>01</span>
+              <div>
+                <h3>Exact formulas</h3>
+                <p>
+                  Source weights, yields, timing, temperatures, and chemistry
+                  remain protected.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>02</span>
+              <div>
+                <h3>Private by default</h3>
+                <p>
+                  Operational systems and business records stay off the public
+                  internet.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>03</span>
+              <div>
+                <h3>Confirm consequential writes</h3>
+                <p>
+                  Purchasing, stock, payment, and data changes are previewed
+                  before they happen.
+                </p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>04</span>
+              <div>
+                <h3>Evidence over optimism</h3>
+                <p>
+                  Work is complete when it survives verification and real
+                  operations—not when a feature merely exists.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section
+        class="section cookbook-section"
+        id="cookbook"
+        aria-labelledby="cookbook-title"
+      >
+        <div class="cookbook-atmosphere" aria-hidden="true"></div>
+        <div class="shell cookbook-grid">
+          <div class="cookbook-copy reveal">
+            <p class="eyebrow"><span></span> The physical book</p>
+            <h2 id="cookbook-title">
+              San Francisco stories. Professional formulas.
+            </h2>
+            <p>
+              A 240-page review edition pairs 115 protected recipes and
+              components with clean food photography, neighborhood character,
+              and an asymmetric layout built to remain genuinely cookable.
+            </p>
+            <div class="cookbook-facts">
+              <div><span>Trim</span><strong>7.5 × 9.25 in</strong></div>
+              <div>
+                <span>Review status</span><strong>Mechanical QA passed</strong>
+              </div>
+              <div>
+                <span>Next gate</span><strong>Human + printer review</strong>
+              </div>
+            </div>
+          </div>
+          <div
+            class="book-object reveal"
+            role="img"
+            aria-label="Abstract representation of the Fog &amp; Flour cookbook"
+          >
+            <div class="book-shadow"></div>
+            <div class="book-cover">
+              <div class="book-cover-mark">F<span>&amp;</span>F</div>
+              <p>Fog &amp; Flour</p>
+              <small>A San Francisco<br />neighborhood cookbook</small>
+              <div class="book-rule"></div>
+              <span class="book-edition">Review edition</span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="closing-section" aria-labelledby="closing-title">
-      <div class="shell closing-inner reveal">
-        <p class="eyebrow"><span></span> Current focus</p>
-        <h2 id="closing-title">Protect the foundation.<br>Then prove the whole cycle.</h2>
-        <p>The next milestone separates live bakery state from deployment code and proves recovery before any new operational expansion.</p>
-        <a class="button button-primary" href="#roadmap">Review all milestones</a>
-      </div>
-    </section>
-  </main>
+      <section class="closing-section" aria-labelledby="closing-title">
+        <div class="shell closing-inner reveal">
+          <p class="eyebrow"><span></span> Current focus</p>
+          <h2 id="closing-title">
+            Protect the foundation.<br />Then prove the whole cycle.
+          </h2>
+          <p>
+            The next milestone separates live bakery state from deployment code
+            and proves recovery before any new operational expansion.
+          </p>
+          <a class="button button-primary" href="#roadmap"
+            >Review all milestones</a
+          >
+        </div>
+      </section>
+    </main>
 
-  <footer class="site-footer">
-    <div class="shell footer-grid">
-      <a class="brand footer-brand" href="#top">
-        <img src="assets/fog_flour_logo.png" width="64" height="64" alt="">
-        <span class="brand-copy"><strong>Fog &amp; Flour</strong><small>AI OS</small></span>
-      </a>
-      <p>Public project overview. Bakery operations, credentials, and business records remain private.</p>
-      <div class="footer-links">
-        <a href="#roadmap">Roadmap</a>
-        <a href="https://github.com/users/codeframe78/projects/2">Private board</a>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <a class="brand footer-brand" href="#top">
+          <img
+            src="assets/fog-flour-logo-104.webp"
+            width="46"
+            height="46"
+            alt=""
+          />
+          <span class="brand-copy"
+            ><strong>Fog &amp; Flour</strong><small>AI OS</small></span
+          >
+        </a>
+        <p>
+          Public project overview. Bakery operations, credentials, and business
+          records remain private.
+        </p>
+        <div class="footer-links">
+          <a href="#roadmap">Roadmap</a>
+          <a href="https://jamesjennison.net">James Jennison</a>
+          <a href="https://status.jamesjennison.net">Status</a>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="app.js" defer></script>
-</body>
+    <script src="app.js" defer></script>
+  </body>
 </html>

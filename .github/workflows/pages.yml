@@ -11,7 +11,15 @@ on:
       - "app.js"
       - "roadmap.json"
       - "favicon.svg"
-      - "assets/fog_flour_logo.png"
+      - "robots.txt"
+      - "sitemap.xml"
+      - "site.webmanifest"
+      - ".htaccess"
+      - "package.json"
+      - "scripts/**"
+      - "assets/apple-touch-icon.png"
+      - "assets/fog-flour-logo-104.webp"
+      - "assets/fog-flour-social-card.png"
   workflow_dispatch:
 
 permissions:
@@ -33,27 +41,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build and validate the public artifact
+        run: npm run validate
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-
-      - name: Stage public-safe site only
-        run: |
-          install -d _site/assets
-          install -m 0644 \
-            index.html \
-            404.html \
-            styles.css \
-            app.js \
-            roadmap.json \
-            favicon.svg \
-            _site/
-          install -m 0644 assets/fog_flour_logo.png _site/assets/fog_flour_logo.png
-          touch _site/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: dist
 
       - name: Deploy to GitHub Pages
         id: deployment

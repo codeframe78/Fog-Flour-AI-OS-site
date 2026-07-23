@@ -1,0 +1,16 @@
+{
+  "name": "Fog & Flour AI OS",
+  "short_name": "Fog & Flour",
+  "description": "A public project roadmap for the Fog & Flour bakery operating system, Android companion, and narrative cookbook platform.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#17130f",
+  "theme_color": "#17130f",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
